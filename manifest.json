@@ -1,0 +1,19 @@
+﻿{
+  "name": "Soonkilo",
+  "content_security_policy": "script-src 'self' https://api.instagram.com/; object-src 'self'",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Your Instagram-feed",
+    "icons": { "16": "Images/logo16.png",
+           "48": "Images/logo48.png",
+          "128": "Images/logo128.png" },
+
+  "browser_action": {
+    "default_icon": "Images/logo48.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "identity",
+    "https://api.instagram.com/*"
+  ]
+}
